@@ -9,9 +9,9 @@ const FilterSidebar = () => {
       <h1 className="text-center text-[#DAD7CD] text-xs media426:text-base font-anton rounded-md mt-1 p-[2px] media769:p-1">Categories</h1>
       <form className="flex flex-col">
         <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-1 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="">All Blogs</button>   
+        <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="html, css & javascript">HTML, CSS & JavaScript</button>   
         <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="reactjs" >Reactjs</button>
-        <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="context">Context</button>
-        <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="redux">Redux</button>   
+        <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="context">Redux</button>
         <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="mern">Mern</button>
         <button className="bg-[#DAD7CD] font-anton text-[#22223B] text-xs media426:text-base text-center rounded-md mt-2 hover:scale-105 p-[2px] media769:p-1" onClick={handleClick} value="nextjs">Nextjs</button>
       </form>

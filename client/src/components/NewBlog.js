@@ -85,8 +85,8 @@ const NewBlog = () => {
             onChange={(e) => setBlogCategory(e.target.value)}
           /> 
           <datalist id="blog-category">
+            <option className="font-anton">html, css & javascript</option>
             <option className="font-anton">reactjs</option>
-            <option className="font-anton">context</option>
             <option className="font-anton">redux</option>
             <option className="font-anton">mern</option>
             <option className="font-anton">nextjs</option>
