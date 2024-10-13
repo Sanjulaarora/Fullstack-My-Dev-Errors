@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Pacifico&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply m-0 p-0 box-border;
+}
+
+[data-theme="light"] {
+   @apply bg-[#DAD7CD] text-[#22223B] ;
+}
+
+[data-theme="light"] .head {
+    @apply text-[#22223B] ;
+}
+
+[data-theme="dark"] {
+    @apply bg-[#22223B] text-[#DAD7CD];
+}
+
+[data-theme="dark"] .head {
+    @apply text-[#DAD7CD] ;
+}
+
+.container{
+    @apply px-4 media426:px-12 w-full max-w-[1440px] mx-auto;
+}
+
+.box{
+    @apply px-12 w-full max-w-[1024px] mx-auto;
+}
+
+.not-active{
+    @apply font-anton text-[#746a73] text-sm media426:text-lg md:text-xl border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 hover:scale-110;
+}
+
+.active{
+    @apply font-anton text-[#DAD7CD] text-sm media426:text-lg md:text-xl bg-[#746a73] border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 hover:scale-110;
+}
