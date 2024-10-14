@@ -8,11 +8,11 @@ const cors = require("cors");
 const router = require("./routes/router");
 const path = require("path");
 
-const port = process.env.PORT || 8003;
-
 app.use(express.json());
 app.use(cors());
 app.use(router);
+
+const port = process.env.PORT || 8003;
 
 //-------------------Deployment----------------------//
 const __dirname1 = path.resolve();
