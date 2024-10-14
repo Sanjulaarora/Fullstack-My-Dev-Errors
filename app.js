@@ -15,10 +15,7 @@ app.use(router);
 const port = process.env.PORT || 8003;
 
 //-------------------Deployment----------------------//
-const __dirname1 = path.resolve();
-if(process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname1, "client/build")));
-}
+    app.use(express.static(path.join(__dirname, "client/build")));
 //-------------------Deployment----------------------//
 
 app.listen(port,() => {
