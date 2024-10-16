@@ -46,7 +46,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Author
 
-Sanjula Arora
-Connect with me on [LinkedIn](https://www.linkedin.com/in/sanjula-arora-30927b244/).
+- Sanjula Arora
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/sanjula-arora-30927b244/).
 
 Feel free to open issues for any questions or feedback.
