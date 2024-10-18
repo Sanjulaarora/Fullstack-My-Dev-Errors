@@ -9,9 +9,9 @@ const Comments = () => {
 
   const handleSubmitComments = (e) => {
     e.preventDefault();
-      setUserName('');
-      setUserComment('');
-      Success('Comment Added Successfully!');     
+    setUserName('');
+    setUserComment('');
+    Success('Comment Added Successfully!');     
   };
 
   return (
@@ -19,23 +19,23 @@ const Comments = () => {
       <div className="flex flex-col p-2">
         <label htmlFor="name" className="font-anton text-[#56463c] text-xs media426:text-xl"> Name </label>
         <input className="w-52 media426:w-80 rounded-md outline-none p-1 text-xs media426:text-base"
-        id="name"
-        type="text"
-        placeholder="Enter Your name"
-        required
-        value={userName}
-        onChange={(e) => setUserName(e.target.value)}
+          id="name"
+          type="text"
+          placeholder="Enter Your name"
+          required
+          value={userName}
+          onChange={(e) => setUserName(e.target.value)}
         />
       </div>
       <div className="flex flex-col p-2">   
         <label htmlFor="comment" className="font-anton text-[#56463c] text-xs media426:text-xl"> Comment </label>
         <textarea className="w-52 media426:w-80 h-14 media426:h-20 rounded-md outline-none p-1 text-xs media426:text-base"
-        id="comment"
-        type="text-area"
-        placeholder="Add your comment!"
-        required
-        value={userComment}
-        onChange={(e) => setUserComment(e.target.value)}
+          id="comment"
+          type="text-area"
+          placeholder="Add your comment!"
+          required
+          value={userComment}
+          onChange={(e) => setUserComment(e.target.value)}
         />
       </div>    
       <div className="p-3">

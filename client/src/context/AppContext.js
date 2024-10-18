@@ -100,9 +100,11 @@ export const AppProvider = ({ children }) => {
   }
 
   return (
-    <AppContext.Provider value={{
+    <AppContext.Provider 
+      value={{
         theme, toggleTheme, search, setSearch, searchResults, blogs, setBlogs, handleClick, blogCategory, setBlogCategory, user, Success, Error
-      }}>
+      }}
+    >
       {children}
     </AppContext.Provider>
   )

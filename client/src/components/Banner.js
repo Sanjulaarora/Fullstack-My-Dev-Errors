@@ -12,13 +12,17 @@ const Banner = () => {
       <br />
       - Martha Wells
     </h1>,
-    <h1 className="font-anton text-[#e0ded8] text-md media426:text-2xl lg:text-4xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >Errors are inevitable aspect of the learning process.</h1>,
+    <h1 className="font-anton text-[#e0ded8] text-md media426:text-2xl lg:text-4xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >
+      Errors are inevitable aspect of the learning process.
+    </h1>,
     <h1 className="font-anton text-[#e0ded8] text-xs media426:text-lg lg:text-2xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >
       In programming, as in everything else, to be in error is to be reborn.
       <br />
       - Alan Perlis
     </h1>,
-    <h1 className="font-anton text-[#e0ded8] text-md media426:text-2xl lg:text-4xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >Code never lies, comments sometimes do.</h1>,  
+    <h1 className="font-anton text-[#e0ded8] text-md media426:text-2xl lg:text-4xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >
+      Code never lies, comments sometimes do. 
+    </h1>,  
   ];
   const responsive ={
     0:{
@@ -38,7 +42,7 @@ const Banner = () => {
         responsive={responsive}
         autoPlay
         items={items}
-    />
+      />
     </section>
   )
 }
