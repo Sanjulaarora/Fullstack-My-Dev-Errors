@@ -35,7 +35,7 @@ const BlogPage = () => {
         {blog &&
           <>
            <h2 className="font-anton text-[#56463c] text-md media426:text-2xl media769:text-3xl text-center p-[2px] media426:p-2 media769:p-1 mx-auto">{ blog.title }</h2>
-           <p className="flex font-anton text-[#56463c] p-2 media769:p-1 text-xs media426:text-base"><FaCalendar className="mt-1" /> { blog.datetime }</p>
+           <p className="flex font-anton text-[#56463c] p-2 media769:p-1 text-xs media426:text-base"><FaCalendar className="mt-1" /> { blog.datetime.slice(0,10) }</p>
            <div id="problem & solution" className="h-[480px] media426:h-[450px] lg:h-[400px] shadow-xl p-1">
               <p className="flex font-anton text-xs media426:text-lg media769:text-xl text-slate-700 text-center m-2 lg:m-4"><FaBug className="text-3xl" /> { blog.body }</p>
               <p className="flex font-anton text-xs media426:text-sm media769:text-lg text-slate-600 text-center m-2 lg:m-4"><FaPenToSquare className="text-8xl pb-16" /> { blog.solution }</p>

@@ -9,7 +9,7 @@ const Blog = ({blog}) => {
             <h2 className="font-anton text-[#2d2e3e] text-md media426:text-xl text-center hover:scale-105 mt-5">{blog.title}</h2>
             <p className="flex font-anton text-left text-[#2d2e3e] text-xs p-[2px] media426:p-1 hover:scale-105">
                <FaCalendar className="mt-[2px]" /> 
-               {blog.datetime}
+               {blog.datetime.slice(0,10)}
             </p>
             <p className="flex font-anton1 text-[#DAD7CD] text-xs media426:text-sm text-center p-1 mt-2">
                <FaBug className="text-slate-800 text-6xl pb-9 hover:scale-110" />
