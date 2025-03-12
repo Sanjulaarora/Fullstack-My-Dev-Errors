@@ -33,9 +33,9 @@
 }
 
 .not-active{
-    @apply font-anton text-[#746a73] text-sm media426:text-lg md:text-xl border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 hover:scale-110;
+    @apply font-anton text-[#746a73] text-sm media426:text-lg md:text-xl border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 m-1 hover:scale-110;
 }
 
 .active{
-    @apply font-anton text-[#DAD7CD] text-sm media426:text-lg md:text-xl bg-[#746a73] border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 hover:scale-110;
+    @apply font-anton text-[#DAD7CD] text-sm media426:text-lg md:text-xl bg-[#746a73] border-2 border-solid border-[#DAD7CD] rounded-md w-11 media426:w-[58px] md:w-16 p-1 m-1 hover:scale-110;
 }

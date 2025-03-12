@@ -6,6 +6,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 const Banner = () => {
   const handleDragStart = (e) => e.preventDefault();
+
   const items =[
     <h1 className="font-anton text-[#e0ded8] text-xs media426:text-md media769:text-lg lg:text-2xl text-center p-1 media426:p-2 mt-4" onDragStart={handleDragStart} role="presentation" >
       There needs to be an error code that means "I recieved your request but decided to ignore you".
@@ -24,6 +25,7 @@ const Banner = () => {
       Code never lies, comments sometimes do. 
     </h1>,  
   ];
+  
   const responsive ={
     0:{
       items: 1,
